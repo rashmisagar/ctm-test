@@ -9,37 +9,33 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Created by RSen on 27/03/2017.
  */
-public class Hook extends BaseUtil{
 
-    private BaseUtil base;
+    public class Hook extends BaseUtil{
 
-    public Hook() {
-    }
 
-    public Hook(BaseUtil base) {
-        this();
-        this.base = base;
-    }
+        private BaseUtil base;
 
-    @Before
-    public void InitializeTest(){
-        System.out.println("Opening the browser : Chrome");
-        //Passing a dummy Webdriver Instance
-        //base.StepInfo = "FirefoxDriver";
-
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\RSen\\Documents\\Automation\\chromedriver_win32\\chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
-
-    @After
-    public void TearDownTest(Scenario scenario){
-        if(scenario.isFailed()){
-            //Take Screenshot
-            System.out.println(scenario.getStatus());
+        public Hook(BaseUtil base) {
+            this.base = base;
         }
 
-        System.out.println("Closing the browser : MOCK");
-    }
+        @cucumber.api.java.Before
+        public void InitializeTest() {
 
-}
+            System.out.println("Opening the browser : MOCK");
+
+            //Passing a dummy WebDriver instance step info
+            base.StepInfo = "ChromeDriver";
+        }
+
+
+        @cucumber.api.java.After
+        public void TearDownTest(Scenario scenario) {
+            if (scenario.isFailed()) {
+                //Take screenshot logic goes here
+                System.out.println(scenario.getStatus());
+            }
+            System.out.println("Closing the browser : MOCK");
+        }
+
+    }
