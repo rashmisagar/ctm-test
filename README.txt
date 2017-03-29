@@ -3,7 +3,7 @@ README
 *****************
 Test Design
 *****************
-CTM Tech test project is designed using BDD Cucumber framework and Java with Selenium
+CTM Tech test project is designed using BDD Cucumber framework and Java with Selenium.
 
 I have considered three test scenarios per feature file to possibly test the full coverage of the online energy product user journey:
 1. As an Electricity only user, I should be able to get quotes from companies that provide the products through the online journey, so that I can compare prices to make an optimal decision
@@ -37,11 +37,9 @@ or try to install chromedriver.exe under user.home") + "/Google/Chrome/Driver/ch
 i was working on setting up different browsers to run the tests on which is further an enhancement
 
 *********************
-
 Further enhancements
 *********************
 Though there are a lot of tests possible to do while going through testing the journey, but I have developed tests for Elecricity only comparison using BDD.
-The further enhancement to be to get Page objects or mock objects into theframework but wasn't done due to time shortage.
-As a note, these tests could further be enhanced in a lot of different ways.
+The further enhancement to be to get Page objects or mock objects into the tests but wasn't done due to time shortage.
 
 
