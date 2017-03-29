@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
  */
 public class BaseUtil {
 
-    //public String StepInfo;
+    public String StepInfo;
 
     public WebDriver driver;
 
