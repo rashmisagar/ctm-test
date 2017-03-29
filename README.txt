@@ -1,8 +1,8 @@
 README
 
-*****************
+*******************************************************************************************
 Test Design
-*****************
+*******************************************************************************************
 CTM Tech test project is designed using BDD Cucumber framework and Java with Selenium.
 
 I have considered three test scenarios per feature file to possibly test the full coverage of the online energy product user journey:
@@ -16,9 +16,23 @@ I have developed a feature file for Electricity only Compare Test with three tes
 
 I used Electricity Only compare Users of the website and their interactions in the user journey.
 
-*******************
+*******************************************************************************************
+Tools & libraries used
+*******************************************************************************************
+The test automation framework is comprised of following tools and libraries
+
+*Cucumber-JVM:- BDD Framework
+*Custom Page Object Pattern and utility functions
+*Selenium WebDriver: - Browser automation framework
+*JAVA: - Programming language
+*Junit: - Junit Java testing framework
+*Maven: - Build tool
+*PicoContainer: - Standard Dependency Injection
+*Git OR SVN: - Version Control
+
+*******************************************************************************************
 Test Execution
-*******************
+*******************************************************************************************
 This is a Java project so a latest JDK is required to be installed to run the tess.
 Most preferably it can be run in an IDE that supports java for e.g., IntelliJ IDEA or Eclipse.
 The project's dependencies and required plugins are mentioned in pom.xml maven file.
@@ -37,12 +51,11 @@ or try to install chromedriver.exe under user.home") + "/Google/Chrome/Driver/ch
 
 i was working on setting up different browsers to run the tests on which is further an enhancement
 
-*********************
+*******************************************************************************************
 Further enhancements
-*********************
-Though there are a lot of tests possible to do while going through testing the journey, but I have developed tests for Elecricity only comparison using BDD.
-The further enhancement would be to get Page objects or mock objects into the tests.
-Getting the project run through any command line using maven.
+*******************************************************************************************
+While going through testing the user journey, wide range of test coverage was discovered that could be implemented.
+The further enhancement would be to get Page objects or mock objects into the tests and to inject better reusability of the components.
 
 
 
