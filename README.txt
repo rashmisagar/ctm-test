@@ -19,7 +19,7 @@ I used Electricity Only compare Users of the website and their interactions in t
 *******************
 Test Execution
 *******************
-This is a Java project so a latest JVM is required to be installed to run the tess.
+This is a Java project so a latest JDK is required to be installed to run the tess.
 Most preferably it can be run in an IDE that supports java for e.g., IntelliJ IDEA or Eclipse.
 The project's dependencies and required plugins are mentioned in pom.xml maven file.
 The tests can be run through TestRunner.java file under ctm-test/src/test/java/runner/.
@@ -41,6 +41,8 @@ i was working on setting up different browsers to run the tests on which is furt
 Further enhancements
 *********************
 Though there are a lot of tests possible to do while going through testing the journey, but I have developed tests for Elecricity only comparison using BDD.
-The further enhancement to be to get Page objects or mock objects into the tests but wasn't done due to time shortage.
+The further enhancement would be to get Page objects or mock objects into the tests.
+Getting the project run through any command line using maven.
+
 
 
