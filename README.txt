@@ -19,7 +19,8 @@ I used Electricity Only compare Users of the website and their interactions in t
 *******************
 Test Execution
 *******************
-This is a Java project so a latest JVM is required to run it . Most preferably it can be run in an IDE that supports java for e.g., IntelliJ IDEA or Eclipse.
+This is a Java project so a latest JVM is required to be installed to run the tess.
+Most preferably it can be run in an IDE that supports java for e.g., IntelliJ IDEA or Eclipse.
 The project's dependencies and required plugins are mentioned in pom.xml maven file.
 The tests can be run through TestRunner.java file under ctm-test/src/test/java/runner/.
 Please save the zip file to your local machine and open in the IDE.
