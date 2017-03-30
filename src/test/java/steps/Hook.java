@@ -1,3 +1,4 @@
+/*
 package steps;
 
 import Base.BaseUtil;
@@ -6,15 +7,21 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+*/
 /**
  * Created by RSen on 27/03/2017.
- */
+ *//*
+
 
     public class Hook extends BaseUtil{
 
 
         private BaseUtil base;
 
+
+        public Hook(){
+
+        }
         public Hook(BaseUtil base) {
             this.base = base;
         }
@@ -39,3 +46,4 @@ import org.openqa.selenium.chrome.ChromeDriver;
         }
 
     }
+*/

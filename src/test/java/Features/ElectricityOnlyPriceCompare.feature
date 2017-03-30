@@ -21,7 +21,7 @@ Feature: Electricity Only Quote Results
   I should be able to get quotes from companies that provide the products through the online journey,
   so that I can compare prices to make an optimal decision
 
-  Scenario: Supplier details for Electricity Only Compare
+  Scenario: Fill Supplier details for Electricity Only Compare
     Given I navigate to Home Page of the Energy journey
     And I am on the Supplier Tab
     When I enter postcode
@@ -33,7 +33,7 @@ Feature: Electricity Only Quote Results
     And I click on Next button of Supplier page
     Then I see Your Energy page successfully
 
-  Scenario: Energy details for Electricity Only Compare
+  Scenario: Fill Energy details for Electricity Only Compare
     Given I am on the Energy page for Electricity Only
     When I select electricity tariff
     And I set economy7 meter as No
@@ -47,7 +47,7 @@ Feature: Electricity Only Quote Results
     And I click on Next button of Electricity Energy page
     Then I see Your Details page successfully
 
-  Scenario: Preferences and details for Electricity Only Compare
+  Scenario: Fill Preferences and details for Electricity Only Compare
     Given I am on the Details Page
     When I select tariff type as Fixed Tariff
     And I select payment type as Monthly direct debit
