@@ -93,7 +93,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.I_navigate_to_Home_Page_of_the_Energy_journey()"
 });
 formatter.result({
-  "duration": 14761818500,
+  "duration": 16924646552,
   "status": "passed"
 });
 formatter.step({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.I_am_on_the_Supplier_Tab()"
 });
 formatter.result({
-  "duration": 69314331,
+  "duration": 220414038,
   "status": "passed"
 });
 formatter.step({
@@ -131,7 +131,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.I_enter_postcode_as(DataTable)"
 });
 formatter.result({
-  "duration": 660346859,
+  "duration": 1134930547,
   "status": "passed"
 });
 formatter.step({
@@ -143,7 +143,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.I_have_my_bill_handy()"
 });
 formatter.result({
-  "duration": 2202287353,
+  "duration": 2236843517,
   "status": "passed"
 });
 formatter.step({
@@ -155,7 +155,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_to_compare_ElectricityOnly_energy()"
 });
 formatter.result({
-  "duration": 314283248,
+  "duration": 702477928,
   "status": "passed"
 });
 formatter.step({
@@ -167,7 +167,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_my_supplier()"
 });
 formatter.result({
-  "duration": 4315881084,
+  "duration": 4416870342,
   "status": "passed"
 });
 formatter.step({
@@ -179,7 +179,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_click_on_Next_button_of_Supplier_page()"
 });
 formatter.result({
-  "duration": 2231505581,
+  "duration": 2197511575,
   "status": "passed"
 });
 formatter.step({
@@ -191,7 +191,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_see_Your_Energy_page_successfully()"
 });
 formatter.result({
-  "duration": 2264067366,
+  "duration": 2563127558,
   "status": "passed"
 });
 formatter.scenario({
@@ -211,7 +211,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_am_on_the_Energy_page_for_Electricity_Only()"
 });
 formatter.result({
-  "duration": 35986984,
+  "duration": 45530143,
   "status": "passed"
 });
 formatter.step({
@@ -223,7 +223,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_electricity_tariff()"
 });
 formatter.result({
-  "duration": 2147303623,
+  "duration": 2159325876,
   "status": "passed"
 });
 formatter.step({
@@ -235,7 +235,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_set_economy7_meter_as_No()"
 });
 formatter.result({
-  "duration": 2181654051,
+  "duration": 2208390852,
   "status": "passed"
 });
 formatter.step({
@@ -247,7 +247,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_electricity_payment_method()"
 });
 formatter.result({
-  "duration": 2152269276,
+  "duration": 2158538856,
   "status": "passed"
 });
 formatter.step({
@@ -259,7 +259,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_set_electricity_as_main_source_of_heating_as_Yes()"
 });
 formatter.result({
-  "duration": 2185961908,
+  "duration": 2219851413,
   "status": "passed"
 });
 formatter.step({
@@ -271,7 +271,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_current_electricity_usage_as_kWh()"
 });
 formatter.result({
-  "duration": 2163038453,
+  "duration": 2222008141,
   "status": "passed"
 });
 formatter.step({
@@ -297,7 +297,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_enter_value_in_usagefield(DataTable)"
 });
 formatter.result({
-  "duration": 2223626036,
+  "duration": 2271387551,
   "status": "passed"
 });
 formatter.step({
@@ -309,7 +309,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_Annually()"
 });
 formatter.result({
-  "duration": 2162916691,
+  "duration": 2157143490,
   "status": "passed"
 });
 formatter.step({
@@ -321,7 +321,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_click_on_Next_button_of_Electricity_Energy_page()"
 });
 formatter.result({
-  "duration": 2320198738,
+  "duration": 2244417957,
   "status": "passed"
 });
 formatter.step({
@@ -333,7 +333,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_see_Your_Details_page_successfully()"
 });
 formatter.result({
-  "duration": 339255665,
+  "duration": 419099848,
   "status": "passed"
 });
 formatter.scenario({
@@ -353,7 +353,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_am_on_the_Details_Page()"
 });
 formatter.result({
-  "duration": 2218751822,
+  "duration": 1555178503,
   "status": "passed"
 });
 formatter.step({
@@ -365,7 +365,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_tariff_type_as_Fixed_Tariff()"
 });
 formatter.result({
-  "duration": 2142177955,
+  "duration": 2158454415,
   "status": "passed"
 });
 formatter.step({
@@ -377,7 +377,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_payment_type_as_Monthly_direct_debit()"
 });
 formatter.result({
-  "duration": 2208003639,
+  "duration": 2335500636,
   "status": "passed"
 });
 formatter.step({
@@ -403,7 +403,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_enter_my_email_address(DataTable)"
 });
 formatter.result({
-  "duration": 2617844439,
+  "duration": 2624336081,
   "status": "passed"
 });
 formatter.step({
@@ -415,7 +415,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_to_agree_with_marketing_terms()"
 });
 formatter.result({
-  "duration": 2197097305,
+  "duration": 2244413292,
   "status": "passed"
 });
 formatter.step({
@@ -427,7 +427,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_select_to_have_read_Terms_and_Conditions()"
 });
 formatter.result({
-  "duration": 2264624859,
+  "duration": 2252756557,
   "status": "passed"
 });
 formatter.step({
@@ -439,7 +439,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_click_Go_to_Prices_button()"
 });
 formatter.result({
-  "duration": 6461833662,
+  "duration": 2903467419,
   "status": "passed"
 });
 formatter.step({
@@ -451,7 +451,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_should_see_the_results_loading_popup()"
 });
 formatter.result({
-  "duration": 651700353,
+  "duration": 5118283669,
   "status": "passed"
 });
 formatter.step({
@@ -463,7 +463,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_should_see_the_results_page_successfully()"
 });
 formatter.result({
-  "duration": 224879579,
+  "duration": 116927958,
   "status": "passed"
 });
 formatter.step({
@@ -475,7 +475,7 @@ formatter.match({
   "location": "ElectricityOnlyTestSteps.i_should_see_the_filters_with_quote_results()"
 });
 formatter.result({
-  "duration": 3658989281,
+  "duration": 3421284100,
   "status": "passed"
 });
 });
