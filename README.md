@@ -1,4 +1,4 @@
-#ctm-test
+# ctm-test
 
 CTM Tech test project is designed using BDD Cucumber framework and Java with Selenium.
 
@@ -46,14 +46,6 @@ Report can be seen generated under target/site/cucumber-pretty
 
 The tests uses chromedriver to run the tests so it checks and copies to a local folder before executing the tests.
 or try to install chromedriver.exe under user.home") + "/Google/Chrome/Driver/chromedriver.exe
-
-i was working on setting up different browsers to run the tests on which is further an enhancement
-
-*******************************************************************************************
-Further enhancements
-*******************************************************************************************
-While going through testing the user journey, wide range of test coverage was discovered that could be implemented.
-The further enhancement would be to get Page objects or mock objects into the tests and to inject better reusability of the components.
 
 
 
