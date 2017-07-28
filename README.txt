@@ -1,11 +1,9 @@
-README
+#ctm-test
 
-*******************************************************************************************
-Test Design
-*******************************************************************************************
 CTM Tech test project is designed using BDD Cucumber framework and Java with Selenium.
 
 I have considered three test scenarios per feature file to possibly test the full coverage of the online energy product user journey:
+
 1. As an Electricity only user, I should be able to get quotes from companies that provide the products through the online journey, so that I can compare prices to make an optimal decision
 
 2. As a Gas & Electricity user, I should be able to get quotes from companies that provide the products through the online journey, so that I can compare prices to make an optimal decision
